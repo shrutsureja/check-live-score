@@ -1,0 +1,27 @@
+{
+  "name": "check-live-score",
+  "version": "1.0.0",
+  "description": "practicing SSE with custom JWT auth and MongoDB to update live score from a admin to user account like cricheros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrutsureja/check-live-score.git"
+  },
+  "author": "shrutsureja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrutsureja/check-live-score/issues"
+  },
+  "homepage": "https://github.com/shrutsureja/check-live-score#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "zod": "^3.22.4"
+  },
+  "type": "module"
+}
